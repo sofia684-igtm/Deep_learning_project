@@ -1,0 +1,18 @@
+digraph {
+	A [label="30 Features"]
+	B [label="Hidden Layer
+16 Neurons
+ReLU"]
+	C [label="Hidden Layer
+8 Neurons
+ReLU"]
+	D [label="Output Layer
+2 Neurons"]
+	E [label=Benign]
+	F [label=Malignant]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	D -> F
+}
